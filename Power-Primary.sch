@@ -535,12 +535,12 @@ Wire Wire Line
 Wire Wire Line
 	4000 4150 4000 4500
 $Comp
-L New-Power-Distribution-Board-rescue:Mean_Well_12V-vicor_mini_12v U1
+L utsvt-power-regulators:Mean_Well_12V-vicor_mini_12v U1
 U 1 1 5BE09B68
 P 2100 4800
 F 0 "U1" H 2950 6587 60  0000 C CNN
 F 1 "Mean_Well_12V" H 2950 6481 60  0000 C CNN
-F 2 "Power Board Parts:DC-DC Converter 12V" H 2100 4800 60  0001 C CNN
+F 2 "UTSVT_Power:Mean_Well_12V" H 2100 4800 60  0001 C CNN
 F 3 "" H 2100 4800 60  0001 C CNN
 	1    2100 4800
 	1    0    0    -1  
