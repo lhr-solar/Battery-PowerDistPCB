@@ -1218,4 +1218,70 @@ Wire Wire Line
 	13000 5900 13000 6550
 Text Notes 7650 4500 0    100  ~ 20
 Power Primary Board
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FC30C37
+P 13500 9200
+F 0 "H1" H 13600 9246 50  0000 L CNN
+F 1 "MountingHole" H 13600 9155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 13500 9200 50  0001 C CNN
+F 3 "~" H 13500 9200 50  0001 C CNN
+	1    13500 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FC31367
+P 13500 9500
+F 0 "H2" H 13600 9546 50  0000 L CNN
+F 1 "MountingHole" H 13600 9455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 13500 9500 50  0001 C CNN
+F 3 "~" H 13500 9500 50  0001 C CNN
+	1    13500 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FC386D8
+P 14300 9200
+F 0 "H3" H 14400 9246 50  0000 L CNN
+F 1 "MountingHole" H 14400 9155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 14300 9200 50  0001 C CNN
+F 3 "~" H 14300 9200 50  0001 C CNN
+	1    14300 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FC386DE
+P 14300 9500
+F 0 "H4" H 14400 9546 50  0000 L CNN
+F 1 "MountingHole" H 14400 9455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 14300 9500 50  0001 C CNN
+F 3 "~" H 14300 9500 50  0001 C CNN
+	1    14300 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L utsvt-misc:Logo_Placeholder LOGO1
+U 1 1 5FC48B47
+P 15350 9200
+F 0 "LOGO1" H 15350 9350 50  0001 C CNN
+F 1 "Logo" H 15490 9200 50  0000 L CNN
+F 2 "UTSVT_Special:UTSVT_Logo_Symbol" H 15350 9275 50  0001 C CNN
+F 3 "" H 15350 9275 50  0001 C CNN
+	1    15350 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L utsvt-misc:Logo_Placeholder LOGO2
+U 1 1 5FC497EC
+P 15350 9550
+F 0 "LOGO2" H 15350 9700 50  0001 C CNN
+F 1 "Hallock" H 15490 9550 50  0000 L CNN
+F 2 "UTSVT_Special:Hallock_Image" H 15350 9625 50  0001 C CNN
+F 3 "" H 15350 9625 50  0001 C CNN
+	1    15350 9550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
