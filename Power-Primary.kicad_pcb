@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.8)
+    (last_trace_width 0.25)
     (user_trace_width 0.8)
     (user_trace_width 1)
     (user_trace_width 1.25)
@@ -246,6 +246,11 @@
       (net 3 "Net-(F1-Pad2)"))
     (pad 1 thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.4) (layers *.Cu *.Mask)
       (net 4 "Net-(J1-Pad1)"))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/pxc_1720796_04_PC-5-2-GF-7-62_3D.stp
+      (offset (xyz -117.5 -54.5 -23))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module UTSVT_Power:RSD-150 (layer B.Cu) (tedit 5FFCFC7B) (tstamp 5BD35064)
@@ -304,6 +309,11 @@
     (pad "" np_thru_hole circle (at -91.5 31.5) (size 5 5) (drill 3.5) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -91.5 -31.5) (size 5 5) (drill 3.5) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 91.5 31.5) (size 5 5) (drill 3.5) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/common/utsvt3d/misc.3dshapes/RSD-150.stp
+      (offset (xyz -84.5 -95 1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module UTSVT_Special:Hallock_Image (layer B.Cu) (tedit 0) (tstamp 5FC2B36F)
@@ -1110,10 +1120,10 @@
       (net 38 "Net-(F17-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1164,10 +1174,10 @@
       (net 37 "Net-(F16-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1218,10 +1228,10 @@
       (net 36 "Net-(F15-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1272,10 +1282,10 @@
       (net 35 "Net-(F14-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1326,10 +1336,10 @@
       (net 34 "Net-(F13-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1380,10 +1390,10 @@
       (net 33 "Net-(F12-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1434,10 +1444,10 @@
       (net 26 "Net-(F11-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1488,10 +1498,10 @@
       (net 25 "Net-(F10-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1542,10 +1552,10 @@
       (net 24 "Net-(F9-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1596,10 +1606,10 @@
       (net 23 "Net-(F8-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1650,10 +1660,10 @@
       (net 22 "Net-(F7-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96 180) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1704,10 +1714,10 @@
       (net 21 "Net-(F6-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1758,10 +1768,10 @@
       (net 20 "Net-(F5-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1812,10 +1822,10 @@
       (net 19 "Net-(F4-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1866,10 +1876,10 @@
       (net 18 "Net-(F3-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1920,10 +1930,10 @@
       (net 17 "Net-(F2-Pad2)"))
     (pad "" np_thru_hole circle (at 6 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -3 -1.96) (size 1.27 1.27) (drill 1.27) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/common/utsvt3d/connectors.3dshapes/436500217.stp
+      (offset (xyz 1.5 0 4.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3175,8 +3185,8 @@
     (pad 1 thru_hole circle (at 0 0 90) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 5 /DC+))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3219,8 +3229,8 @@
     (pad 1 thru_hole circle (at 0 0 90) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 5 /DC+))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3613,8 +3623,8 @@
     (pad 2 thru_hole circle (at 9.92 3.4 270) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 17 "Net-(F2-Pad2)"))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3657,8 +3667,8 @@
     (pad 2 thru_hole circle (at 9.92 3.4 270) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 18 "Net-(F3-Pad2)"))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3701,8 +3711,8 @@
     (pad 1 thru_hole circle (at 0 0 270) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 5 /DC+))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3745,8 +3755,8 @@
     (pad 2 thru_hole circle (at 9.92 3.4 270) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 20 "Net-(F5-Pad2)"))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3789,8 +3799,8 @@
     (pad 2 thru_hole circle (at 9.92 3.4 270) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 21 "Net-(F6-Pad2)"))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3833,8 +3843,8 @@
     (pad 1 thru_hole circle (at 0 0 90) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 5 /DC+))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3877,8 +3887,8 @@
     (pad 1 thru_hole circle (at 0 0 90) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 5 /DC+))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -3921,8 +3931,8 @@
     (pad 1 thru_hole circle (at 0 0 90) (size 2.78 2.78) (drill 1.78) (layers *.Cu *.Mask)
       (net 5 /DC+))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.wrl
-      (offset (xyz 4.063999938964844 0 0))
-      (scale (xyz 0.39 0.39 0.39))
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
