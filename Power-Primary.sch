@@ -71,17 +71,6 @@ Wire Wire Line
 	2450 6050 2800 6050
 Wire Wire Line
 	2450 5950 2500 5950
-$Comp
-L Connector:Conn_01x02_Female J1
-U 1 1 5BD5B9C8
-P 2250 6050
-F 0 "J1" H 2144 5725 50  0000 C CNN
-F 1 "HV in" H 2144 5816 50  0000 C CNN
-F 2 "Power Board Parts:PhoenixContact_PC_2-GF_2x7.62" H 2250 6050 50  0001 C CNN
-F 3 "~" H 2250 6050 50  0001 C CNN
-	1    2250 6050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2800 5500 3000 5500
 $Comp
@@ -1283,5 +1272,16 @@ F 2 "UTSVT_Special:Hallock_Image" H 15350 9625 50  0001 C CNN
 F 3 "" H 15350 9625 50  0001 C CNN
 	1    15350 9550
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5BD5B9C8
+P 2250 6050
+F 0 "J1" H 2144 5725 50  0000 C CNN
+F 1 "HV in" H 2144 5816 50  0000 C CNN
+F 2 "Power Board Parts:PhoenixContact_PC_2-GF_2x7.62" H 2250 6050 50  0001 C CNN
+F 3 "~" H 2250 6050 50  0001 C CNN
+	1    2250 6050
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
